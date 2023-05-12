@@ -29,6 +29,9 @@ p {
   font-size: 18px;
   line-height: 30px;
 }
+footer {
+  display: block;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -153,7 +156,15 @@ p {
   font-family: var(--heading-font-family);
   font-size: 100px;
 }
-
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: #601c63;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 576px) {
   h2 {
     font-size: 32px;
