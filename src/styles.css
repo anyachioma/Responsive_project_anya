@@ -165,6 +165,15 @@ footer .social-links a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+}
+
+footer h4 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+}
 @media (max-width: 576px) {
   h2 {
     font-size: 32px;
