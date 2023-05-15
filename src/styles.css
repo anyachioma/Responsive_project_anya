@@ -33,8 +33,19 @@ p {
 footer {
   display: block;
 }
+button {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 40px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: #251c4b;
+}
 .index {
- background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+ background: #e3f6f5
 }
 .projects {
   background: radial-gradient(
